@@ -4,6 +4,7 @@ import ContainerFluid from "./containerFluid.jsx"
 import Row from "./row.jsx"
 import NavBarComponent from "./NavBar";
 import JumbotronComponent from "./Jumbotron";
+import NavBar from "./NavBar";
 
 //create your first component
 const Home = () => {
@@ -20,7 +21,8 @@ const Home = () => {
 			</Row>
 			</ContainerFluid>
 		</ContainerFluid>
-	)
+		)
+	
 };
 
 export default Home;
