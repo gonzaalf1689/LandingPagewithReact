@@ -10,14 +10,15 @@ import NavBar from "./NavBar";
 const Home = () => {
 	return (
 		<ContainerFluid>
-				<NavBar />
+			<NavBarComponent />
+			<JumbotronComponent />
 			<ContainerFluid>
-				<Row>
-					<CardComponent />
-					<CardComponent />
-					<CardComponent />
-					<CardComponent />
-				</Row>
+			<Row>
+				<CardComponent />
+				<CardComponent />
+				<CardComponent />
+				<CardComponent />
+			</Row>
 			</ContainerFluid>
 		</ContainerFluid>
 		)
