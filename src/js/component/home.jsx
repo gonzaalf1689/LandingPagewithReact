@@ -9,12 +9,16 @@ import JumbotronComponent from "./Jumbotron";
 const Home = () => {
 	return (
 		<ContainerFluid>
+			<NavBarComponent />
+			<JumbotronComponent />
+			<ContainerFluid>
 			<Row>
 				<CardComponent />
 				<CardComponent />
 				<CardComponent />
 				<CardComponent />
 			</Row>
+			</ContainerFluid>
 		</ContainerFluid>
 	)
 };
