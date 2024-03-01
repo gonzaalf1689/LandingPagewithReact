@@ -19,7 +19,9 @@ const Home = () => {
 					<CardComponent />
 					<CardComponent />
 					<CardComponent />
+					
 				</Row>
+				
 			</ContainerFluid>
 			<Footer />
 		</>
