@@ -5,22 +5,27 @@ import Row from "./row.jsx"
 import NavBarComponent from "./NavBar";
 import JumbotronComponent from "./Jumbotron";
 import NavBar from "./NavBar";
+import Footer from './footer.jsx'
 
 //create your first component
 const Home = () => {
 	return (
-		<ContainerFluid>
+		<>
 			<NavBarComponent />
 			<JumbotronComponent />
 			<ContainerFluid>
-			<Row>
-				<CardComponent />
-				<CardComponent />
-				<CardComponent />
-				<CardComponent />
-			</Row>
+				<Row>
+					<CardComponent />
+					<CardComponent />
+					<CardComponent />
+					<CardComponent />
+					
+				</Row>
+				
 			</ContainerFluid>
-		</ContainerFluid>
+			<Footer />
+		</>
+
 		)
 	
 };
