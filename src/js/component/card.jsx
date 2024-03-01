@@ -2,7 +2,7 @@ import React from "react";
 
 const CardComponent = () => {
   return (
-    <div className="col-lg-3 d-flex justify-content-center align-items-center pb-3">
+    <div className="col-lg-3 d-flex justify-content-center align-items-center pb-3 z-n1">
       <div className="card" style={{ width: '18rem', padding: "5px" }}>
         <img src="https://bocdn.ecotree.green/blog/0001/01/ad46dbb447cd0e9a6aeecd64cc2bd332b0cbcb79.jpeg?d=1920x1080" className="card-img-top" alt="..." />
         <div className="card-body">
